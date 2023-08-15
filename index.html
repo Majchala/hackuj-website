@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Custom font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+     <!--Custom icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="images/favicon.png" type="image/png">
+
+    <title>Háčkuj v Brně</title>
+</head>
+
+<body>
+<!-- HEADER SECTION-->
+    <header>
+        <div class="header-1">
+            <div class="share">
+                <span> Sleduj nás: </span>
+                <a href="#" class="fa-brands fa-instagram"></a>
+                <a href="#" class="fa-brands fa-facebook"></a>
+            </div>
+
+            <div class="call">
+                <span> Zavolej nám: </span>
+                <a href="#">+420 123 456 789</a>
+            </div>
+        </div>
+
+        <div class="header-2">
+            <a href="#" class="logo"> Háčkuj v Brně</a>
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="vyhledávání...">
+                <label for="search-bar" class="fa-solid fa-magnifying-glass">
+            </form>
+        </div>
+
+        <div class="header-3">
+
+            <div id="menu-bar" class="fa-solid fa-bars"></div>
+
+            <nav class="navbar">
+                <a href="#home">Domů</a>
+                <a href="#courses">Kurzy</a>
+                <a href="#vouchers">Poukazy</a>
+                <a href="#contact">Kontakt</a>
+            </nav>
+
+            <div class="icons">
+                <a href="#" class="fa-solid fa-user"></a>
+                <a href="#" class="fa-regular fa-cart-shopping"></a>
+            </div>
+        </div>
+    </header>
+   
+<!-- HOME SECTION-->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/slider1.jpg);">
+                        <div class="content">
+                            <span> Sleva na příze Drops </span>
+                            <h3> Pro členy klubu </h3>
+                            <a href="#" class="btn"> To chci! </a>
+                        </div>
+                    
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/slider2.jpg);">
+                        <div class="content">
+                            <span> Vtipně zoufalý příběh: </span>
+                            <h3> Jak jsem se učila plést </h3>
+                            <a href="#" class="btn"> Pobav se taky </a>
+                        </div>
+                    
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(images/slider3.jpg);">
+                        <div class="content">
+                            <span> Inspirace: </span>
+                            <h3> Háčkování pro nejmenší </h3>
+                            <a href="#" class="btn"> Více informací </a>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- BANNER SECTION -->
+    <section class="banner-container" id="vouchers">
+        <div class="banner">
+            <img src="images/voucher.png" alt="Poukaz na kurz dle vlastního výberu">
+            <div class="content">
+                <a href="#" class="btn"> Daruj kurz </a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="images/voucher.png" alt="Poukaz na libovolný kurz">
+            <div class="content">
+                <a href="#" class="btn"> Daruj kurz </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES SECTION -->
+    <section class="courses" id="courses">
+        <h1 class="heading"> Dvouměsíční kurzy </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/begginers.jpg" alt="">
+                <div class="content">
+                    <h3> Začátečníci </h3>
+                    <a href="#" class="btn">Více informací</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/intermediate.jpg" alt="Kurzy pro pokročilé">
+                <div class="content">
+                    <h3> Pokročilí </h3>
+                    <a href="#" class="btn">Více informací</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/experts.jpg" alt="Kurzy pro experty">
+                <div class="content">
+                    <h3> Experti </h3>
+                    <a href="#" class="btn">Více informací</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SHORT COURSES SECTION -->
+    <section class="short-courses" id="short-courses">
+    <h1 class="heading"> Specializované kurzy </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <span class="discount"> Bestseller </span>
+            <div class="icons">
+                <a href="#" class="fa-regular fa-heart"></a>
+            </div>
+            <img src="images/toys2.jpg" alt="Kurz háčkovaných hraček">
+            <h3> Háčkované hračky </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="price"> 399 Kč</div>
+            <a href="#" class="btn"> Přidat do košíku </a>
+        </div>
+
+        <div class="box">
+            <span class="discount"> Letní akce </span>
+            <div class="icons">
+                <a href="#" class="fa-regular fa-heart"></a>
+            </div>
+            <img src="images/decorations2.jpg" alt="Kurz háčkovaných dekorací">
+            <h3> Háčkované dekorace </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="qunatity">
+            </div>
+            <div class="price"> 300 Kč <span> 399 Kč</span></div>
+            <a href="#" class="btn"> Přidat do košíku </a>
+        </div>
+
+        <div class="box">
+            <span class="discount"> Letní akce </span>
+            <div class="icons">
+                <a href="#" class="fa-regular fa-heart"></a>
+            </div>
+            <img src="images/decorations3.jpg" alt="Kurz háčkovaných boxů">
+            <h3> Háčkované boxy </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> 259 Kč <span> 299 Kč </span></div>
+            <a href="#" class="btn"> Přidat do košíku </a>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fa-regular fa-heart"></a>
+            </div>
+            <img src="images/bags.jpg" alt="">
+            <h3> Háčkované tašky </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> 199 Kč</div>
+            <a href="#" class="btn"> Přidat do košíku </a>
+        </div>
+
+        <div class="box">
+            <span class="discount"> Bestseller </span>
+            <div class="icons">
+                <a href="#" class="fa-regular fa-heart"></a>
+            </div>
+            <img src="images/toys2.jpg" alt="Kurz háčkovaných hraček">
+            <h3> Háčkované hračky </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="price"> 399 Kč</div>
+            <a href="#" class="btn"> Přidat do košíku </a>
+        </div>
+
+        <div class="box">
+            <span class="discount"> Letní akce </span>
+            <div class="icons">
+                <a href="#" class="fa-regular fa-heart"></a>
+            </div>
+            <img src="images/decorations3.jpg" alt="Kurz háčkovaných boxů">
+            <h3> Háčkované boxy </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> 259 Kč <span> 299 Kč </span></div>
+            <a href="#" class="btn"> Přidat do košíku </a>
+        </div>
+    </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h1 class="heading"> Kde nás najdete </h1>
+        <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1037.054891267085!2d16.60826330120738!3d49.
+        19707348810502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4712945a3f758b9f%3A0xff7c8c420c265b24!2sScala%20Cinema!
+        5e0!3m2!1sen!2scz!4v1687421653712!5m2!1sen!2scz"
+            allowfullscreen="" loading="lazy">
+        </iframe>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" required>
+                <label>Jméno</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="email" required>
+                <label>E-mail</label>
+            </div>
+
+            <div class="inputBox">
+                <textarea required name="" id="" cols="30" rows="10"></textarea>
+                <label>Zpráva</label>
+            </div>
+
+            <input type="submit" value="Odeslat" class="btn">
+        </form>
+
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3> O nás </h3>
+                <p> Kurzy háčkování pořádáme v Brně už 5 let. Začínali jsme jako nadšení samouci a postupně se rozhodli naši zálibu sdílet.
+                </p>
+                <p>
+                    Aktuálně máme v nabídce dvouměsíční kurzy pro začátečníky, pokročilé i experty.
+                    Kromě toho u nás najdete i jednodenní kurzy zaměřené na různé oblasti (např. hračky či bytové dekorace).
+                </p>
+            </div>
+
+            <div class="box box-right">
+                <h3> Navigace </h3>
+                <a href="#home">Domů</a>
+                <a href="#courses">Kurzy</a>
+                <a href="#vouchers">Poukazy</a>
+                <a href="#contact">Kontakt</a>
+            </div>
+
+            <div class="box box-right">
+                <h3> Sleduj nás </h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Pinterest</a>
+            </div>
+        </div>
+
+        <h1 class="credit"> © Háčkuj v Brně </h1>
+    </section>
+
+    <a href="#home" class="scroll-top fas fa-angle-up"></a>
+
+    <!-- JS FILES -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/script.js" type="module"></script>
+</body>
+</html>
